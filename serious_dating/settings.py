@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 import django_heroku
 from dotenv import load_dotenv
-env_path = Path('../', '.env')
+env_path = Path('webapp') / '.env'
 load_dotenv(dotenv_path=env_path)
 #load_dotenv()  # take environment variables from .env.
 
